@@ -1,0 +1,492 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	background-image:url("provisional2.jpg");
+}
+#container{
+
+width: 1025px;
+margin: auto;
+border-radius: 4px;
+background-color: white;
+padding-left: 10px;
+padding-top: 5px;
+padding-bottom: 25px;
+}
+
+header {
+	margin-top:20px;
+}
+
+	
+
+ #headerimg, #headerimg2 {
+	margin-top:15px;
+	border-radius:3px;
+	display:none;
+}
+
+#headerlogo {
+height: 120px;
+width: 640px;
+margin-right: 20px;
+margin-top: 10px;
+margin-left: 3.5%;
+border-radius: 4px;
+	
+}
+#headerimg2 {
+	
+    height:165px;
+}
+
+#logo {
+	
+	
+	
+}
+
+ul{
+	height:58px;
+	width:auto;
+}
+
+
+#menu-nav {
+	width:auto;
+	height:100px;
+
+
+}
+
+
+	
+	
+#inicio, #tabla, #vendidos, #baratos, #blog, #contacto {
+	display:inline;
+    padding:15px;
+    font-size:19.5px;
+    text-decoration:none;
+    float:left;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 0px;
+}
+
+#cont-inicio {
+	margin-top:20px;
+	margin-bottom:40px;
+	margin-left:35px;
+    margin-right:300px;
+	width:900px;
+	height:1650px;
+	margin-left:40px;
+}
+
+#cont-inicio p {
+   text-align: justify;
+   
+ }
+
+#inicio-izqda{
+	margin-bottom:20px;
+	width:600px;
+	margin-bottom:50px;
+	
+}
+
+#inicio-izqda p{
+	line-height:20pt;
+	font-size:15pt;
+	color:#5A4C4C;
+}
+
+#derecha {
+	min-width:250px;
+	float:right;
+	
+}
+
+
+#titulo-productos {
+
+	
+	width:100%;
+    height:70px;
+    position:relative;
+}
+
+#titulo-productos h3 {
+	
+	padding:12px;
+	background-color:#BDBDBD;
+	border-color: #D8D8D8;
+    border-width: 3px;
+    border-style: solid;
+    border-radius:8px;
+    width:70%;
+    position: absolute;
+top: -20px;
+left: -45px;
+   
+}
+
+#boton-comparar{
+	height: 49.5px;
+font-size: MEDIUM;
+width: 200px;
+position: absolute;
+top: 0px;
+right: 25px;
+border-radius: 8px;
+background: #E2D2D2;
+cursor: pointer;
+font-weight: 900;
+color: #2C2727;
+   
+}
+
+
+
+
+#headerimg{
+	margin-left:10px;
+	margin-right:10px;
+}
+
+#inicio:hover, #tabla:hover, #vendidos:hover, #baratos:hover, #blog:hover, #contacto:hover {
+	cursor:pointer;
+    background-color: #1C1C1C;
+    margin-top:-5px;
+    padding-bottom:20px;
+}
+
+#cont-productos{
+	width:900px;
+	
+}
+
+#caja-producto {
+	margin:1px;
+	padding:8px;
+	float:left;
+    border-color: #D8D8D8;
+    border-width: 2px;
+    border-style: solid;
+    width:200px;
+    height:385px;	
+    border-radius:4px;
+}
+
+
+
+#pie-producto, #comparar {
+	margin:1px;
+	width:200px;
+	float:left;
+	border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    	
+}
+#amazon {
+	
+    margin-left: 1px;
+margin-top: 3px;
+width: 196px;
+float: left;
+border-color: #FFBF00;
+border-width: 2px;
+border-style: solid;
+border-radius: 8px;
+padding: 2px;
+cursor:pointer;
+   }
+
+#precio{
+	margin:1px;
+	width:200px;
+	float:left;
+	border-color:#00FF40;
+    border-width: 2px;
+    border-style: solid;
+    border-radius:8px;
+}
+
+#pie-producto {
+	background-color:#E6E6E6;
+	border-radius:8px;
+}
+
+
+
+#precio h2, #pie-producto h2 {
+	text-align:center;
+	vertical-align: middle;
+	font-size:19px;
+	color: #1C1C1C;
+}
+
+
+
+#pie-producto:hover{
+	background-color:#A4A4A4;
+	cursor:pointer;
+}
+
+li{
+	display:inline;
+}
+
+li img {
+	
+	float:left;
+	display:inline;
+	margin-right:10px;
+	width:30px;
+	height:30px;
+	}
+
+li p{
+	margin:5px;
+	float:left;
+}
+
+#rss, #redes{
+	height:40px;
+}
+
+aside {
+	border-color: #FA5858;
+    border-width: 1px;
+    border-style: solid;
+    border-radius:8px;
+   }
+   
+#suscribete, #contacta-conmigo{
+	margin-left:20px;
+}
+
+.info{
+	width:20px;
+	height:20px;
+	float:right;
+	padding-left:5px;
+}
+
+#prueba, #prueba1, #comparison {
+	visibility:hidden;
+}
+
+#row {
+	width:900px;
+}
+
+#row-right{
+	width:710px;
+	float:left;
+	
+}
+
+#row-left {
+	width:180px;
+	float:left;
+    padding:5px;
+    color:#2B2929;
+    font-weight:5px;
+		
+}
+
+#row-right-col {
+	width:19.7%;
+	float:left;
+	
+	
+}
+
+
+
+#comparison h3{
+	
+	width: 980px;
+background-color: rgb(212, 234, 225);
+padding: 20px;
+float: left;
+
+margin-left: -1px;
+	
+}
+
+#comparison img {
+	width:16.5%;
+	height:177px;
+	float:left;
+	margin-bottom:40px;
+	margin-right:10px;
+	
+}
+
+#white {
+	width:150px;
+	height:177px;
+	float:left;
+	background-color:transparent;
+}
+
+
+
+
+.sony-sw-2, .lg-g-watch-r, .motorola-moto-360, .samsung-gear-fit, .sony-sw-3, .lg-g-watch, .samsung-gear-s, .samsung-gear-2, .sony-sw, .samsung-gear, .samsung-gear-2-neo, .samsung-gear-2-lite, .u10, .memteq,
+.uu, .zewatch, .u8, .u8-plus, .rkm-m3, .zewatch-2 {
+	display:none;
+	
+}
+
+hr {
+	
+	width:99%;
+	color:white;
+	border-color:white;
+	float:left;
+
+}
+
+#cont-tabla p{
+	margin: 5%;
+    text-align: justify;
+    line-height: 20pt;
+font-size: 15pt;
+color: #5A4C4C;
+width:87%;
+}
+
+#cont-tabla h2 {
+	margin-left: 5%;
+   height: 8px;
+   }
+   
+#cont-tabla {
+	display:none;
+}
+
+.add-product {
+	display:block;
+	width:171px;
+	margin-left:3px;
+	margin-right:9px;
+	height:177px;
+	float:left;
+	margin-bottom:40px;
+	cursor:pointer;
+}
+
+a{
+	text-decoration:none;
+}
+#cont-vendidos h1, #cont-vendidos h2 {
+
+margin-left:5%;
+
+}
+#cont-vendidos p{
+line-height: 20pt;
+font-size: 15pt;
+color: #5A4C4C;
+margin-left: 5%;
+text-align:justify;
+width:90%;
+}
+
+#cont-blog p {
+	margin-left:5%;
+	margin-right:5%;
+	text-align:justify;
+	line-height:20pt;
+	font-size:15pt;
+	color:#5A4C4C;
+}
+
+#cont-blog h1, h3{
+	margin-left:5%
+}
+
+h5{
+	margin-left:5%;
+	color: #B5B7BC
+}
+.read-more{
+	cursor:pointer;
+	margin-left:5%;
+	color:blue;
+}
+.full-post{
+	display:none;
+}
+.read-less{
+	cursor:pointer;
+	display:none;
+	margin-left:5%;
+	color:blue;
+}
+
+#web-notification h1{
+text-align: center;
+color: #151515;
+border-style: solid;
+padding: 20px;
+border-color: #F4FA58;
+background-color:#F4FA58;
+}
+
+#logo, #container{
+
+	
+}
+#prov{
+	width:100%;
+}
+#cont-baratos p {
+line-height: 20pt;
+font-size: 15pt;
+color: #5A4C4C;
+margin-left: 5%;
+}
+#cont-baratos h2{
+	margin-left:5%;
+}
+#cont-productos-mas-baratos{
+	margin-left:5%;
+}
+
+.contact {
+	margin-bottom:20px;
+	width:300px;
+}
+
+.submit {
+	margin-top:10px;
+}
+ 
+/*esto falta en style3*/
+
+#form{
+	margin-left:5%;
+}
+
+#cont-contacto h2, #cont-contacto p {
+	margin-left:5%;
+}
+
+#cont-contacto p {
+	text-align:justify;
+	line-height: 20pt;
+    font-size: 15pt;
+    color: #5A4C4C;
+    width:87%;
+}
+#comment{
+	width:500px;
+	height:120px;
+}
